@@ -1,0 +1,1 @@
+ ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i out.ppm -b 10000K gource.avi
